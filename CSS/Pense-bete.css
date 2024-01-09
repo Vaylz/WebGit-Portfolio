@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* CSS qui s'applique au tableau ==============================================*/
+table {
+  width: 100%;
+
+  padding: 10px 0px 0px;
+  background-color: rgb(28, 130, 255);
+  font-family: monospace;
+}
+
+table h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+table p {
+  padding: 15px 15px 20px;
+  font-size: 1.1rem;
+}
+
+/* css qui s'applique au Photo =====================================================================================*/
+
+#PP {
+  position: absolute;
+  width: 20%;
+  top: 0px;
+  padding: 5px 0px 0px;
+
+  font-family: monospace;
+}
+
+#PP img {
+  position: relative;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#PP h2 {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 40%;
+  left: 75%;
+}
+
+/* Style pour le menu déroulant ===============================================================*/
+
+/* CSS pour le menu déroulant Réseau */
+.dropdown-R {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  top: 15%;
+  left: 44%;
+}
+
+.dropdown-R li {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+td:hover .dropdown-R {
+  display: block;
+}
+
+.dropdown-R {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-R li {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+td:hover .dropdown-R {
+  display: block;
+}
+
+/* CSS pour le menu déroulant Developpement */
+.dropdown-D {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  top: 15%;
+  left: 51%;
+}
+
+.dropdown-D li {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+td:hover .dropdown-D {
+  display: block;
+}
+
+.dropdown-D {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-D li {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+td:hover .dropdown-D {
+  display: block;
+}
