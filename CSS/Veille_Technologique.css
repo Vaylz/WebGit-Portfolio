@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* CSS qui s'applique au tableau ==============================================*/
+
+table {
+  width: 100%;
+
+  font-size: 2rem;
+  background-color: yellowgreen;
+  padding: 5px;
+  font-family: monospace;
+}
+
+table h1 {
+  padding: 5px 0px 0px;
+}
+table p {
+  font-size: 1rem;
+  padding: 30px 0px 30px;
+}
+
+/* css qui s'applique au Photo =====================================================================================*/
+
+#PP {
+  position: absolute;
+  width: 20%;
+  top: 0px;
+  padding: 5px 0px 0px;
+
+  font-family: monospace;
+}
+
+#PP img {
+  position: relative;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#PP h2 {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+/* css qui s'applique au Photo =====================================================================================*/
+
+/* Style de base pour la liste */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style de base pour les éléments de la liste */
+li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+/* Style pour le menu déroulant */
+.dropdown {
+  display: none; /* Masquer initialement le menu déroulant */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style pour les liens dans le menu déroulant */
+.dropdown li {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Lorsque survolé, afficher le menu déroulant */
+li:hover .dropdown {
+  display: block;
+}
