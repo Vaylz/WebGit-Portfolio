@@ -1,157 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/Pense-bete.css" />
-    <title>Pense-bête</title>
-  </head>
 
-  <body>
-    <!--html qui s'applique au tableau-->
-    <section>
-      <table xborder="">
-        <tr align="center">
-          <td colspan="4">
-            <h1>Pense-bête</h1>
-          </td>
-        </tr>
-        <tr>
-          <td width="50%" align="right">
-            <p>Réseau</p>
-            <!-- Menu déroulant -->
-            <ul class="dropdown-R">
-              <li><a href="#Linux">Linux</a></li>
-              <li><a href="#SQL">SQL</a></li>
-              <li><a href="#Switch">Switch</a></li>
-            </ul>
-          </td>
-          <td width="50%" align="left">
-            <p>Developement</p>
-            <!-- Menu déroulant -->
-            <ul class="dropdown-D">
-              <li><a href="#C#">C#</a></li>
-              <li><a href="#Javascript">Javascript</a></li>
-              <li><a href="#PHP">PHP</a></li>
-              <li><a href="#CSS">CSS</a></li>
-              <li><a href="#HTML">HTML</a></li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-      <!--html qui s'applique au photo du tableau-->
-      <br />
-      <a href="../index.html">
-        <section id="PP" align="center">
-          <img src="../Fichier/Photo/Moi.jpg" alt="" />
-          <h2>Accueil</h2>
-          <br />
-        </section>
-      </a>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/H_Pense-bete.css" />
+  <link rel="stylesheet" href="../CSS/C_Pense-bete.css" />
+  <title>Pense-bête</title>
+</head>
 
-    <section id="Linux">
-      <h1>Commande Linux</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
+<body>
+  <!--html qui s'applique au tableau-->
+  <section>
+    <table xborder="">
+      <tr align="center">
+        <td colspan="4">
+          <h1>Pense-bête</h1>
+        </td>
+      </tr>
+      <tr>
+        <td width="50%" align="right">
+          <p>Réseau</p>
+          <!-- Menu déroulant -->
+          <ul class="dropdown-R">
+            <li><a href="#Linux">Linux</a></li>
+            <li><a href="#SQL">SQL</a></li>
+            <li><a href="#Switch">Switch</a></li>
+          </ul>
+        </td>
+        <td width="50%" align="left">
+          <p>Developement</p>
+          <!-- Menu déroulant -->
+          <ul class="dropdown-D">
+            <li><a href="#C#">C#</a></li>
+            <li><a href="#Javascript">Javascript</a></li>
+            <li><a href="#PHP">PHP</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#HTML">HTML</a></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <!--html qui s'applique au photo du tableau-->
     <br />
+    <a href="../index.html">
+      <section id="PP" align="center">
+        <img src="../Fichier/Photo/Moi.jpg" alt="" />
+        <h2>Accueil</h2>
+        <br />
+      </section>
+    </a>
+  </section>
+  <!--html qui s'applique au Commande linux -->
+  <section id="Linux">
+    <h1>Commande Linux</h1>
     <br />
-    <section id="SQL">
-      <h1>Commande SQL</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
+    <h3>Navigation dans le système de fichiers :</h3>
+    <br>
+    <li><strong>ls :</strong> Liste les fichiers et répertoires.</li>
+    <li><strong>cd :</strong> Change le répertoire courant.</li>
+    <li><strong>pwd :</strong> Affiche le chemin du répertoire courant.</li>
+    <br>
+
+    <h3>Manipulation de fichiers et répertoires :</h3>
+    <br>
+    <li><strong>cp :</strong> Copie des fichiers ou des répertoires.</li>
+    <li><strong>mv :</strong> Déplace ou renomme des fichiers ou des répertoires.</li>
+    <li><strong>rm :</strong> Supprime des fichiers ou des répertoires.</li>
+    <li><strong>mkdir :</strong> Crée un nouveau répertoire.</li>
+    <br>
+
+    <h3>Affichage de contenu :</h3>
+    <br>
+    <li><strong>cat :</strong> Copie des fichiers ou des répertoires.</li>
+    <li><strong>more</strong> et <strong>less :</strong> Affichent le contenu d'un fichier page par page.</li>
+    <li><strong>head</strong> et <strong>tail :</strong> Affichent les premières ou dernières lignes d'un fichier.</li>
+    <br>
+
+    <h3>Édition de fichiers texte :</h3>
+    <br>
+    <li><strong>nano :</strong> Éditeur de texte simple en ligne de commande.</li>
+    <li><strong>vim</strong> et <strong>emacs :</strong> Éditeurs de texte plus avancés.</li>
+    <br>
+
+    <h3>Gestion des processus :</h3>
+    <br>
+    <li><strong>ps :</strong> Affiche les processus en cours d'exécution.</li>
+    <li><strong>kill:</strong> Tue un processus en utilisant son PID.</li>
+    <li><strong>top :</strong> Affiche les processus en cours d'exécution de manière interactive.</li>
+    <br>
+
+    <h3>Gestion des utilisateurs et des permissions :</h3>
+    <br>
+    <li><strong>useradd</strong> et <strong>userdel :</strong> Ajoutent et suppriment des utilisateurs.</li>
+    <li><strong>passwd :</strong> Modifier le mot de passe d'un utilisateur.</li>
+    <li><strong>chmod :</strong> Modifie les permissions d'un fichier ou d'un répertoire.</li>
+    <br>
+
+    <h3>Recherche de fichiers et de texte :</h3>
+    <br>
+    <li><strong>find :</strong> Recherche des fichiers dans un répertoire donné.</li>
+    <li><strong>grep :</strong> Recherche des expressions régulières dans des fichiers.</li>
+    <br>
+
+    <h3>Réseau :</h3>
+    <br>
+    <li><strong>ping :</strong> Vérifie la connectivité réseau.</li>
+    <li><strong>ifconfig</strong> et <strong>ip :</strong> Affichent et configurent les interfaces réseau.</li>
+    <li><strong>nslookup</strong> et <strong>dig :</strong> Effectuent des requêtes DNS.</li>
+    <br>
+
+    <h3>Archivage et compression :</h3>
+    <br>
+    <li><strong>tar :</strong> Archive des fichiers et répertoires.</li>
+    <li><strong>gzip</strong> et <strong>gunzip :</strong> Compression et décompression au format gzip.</li>
+    <li><strong>zip</strong> et <strong>unzip :</strong> Compression et décompression au format zip.</li>
+    <br>
+
+    <h3>Autres :</h3>
+    <br>
+    <li><strong>echo :</strong> Affiche du texte à la sortie standard.</li>
+    <li><strong>date :</strong> Affiche la date et l'heure actuelles.</li>
+    <li><strong>man :</strong> Affiche le manuel d'utilisation d'une commande.</li>
+    <br>
+
+    <a href="/Fichier/PDF/Commande Linux.pdf" download="Commande Linux">Télécharger mon CV</a>
+    <br><br>
+
+    <hr>
+  </section>
+
+  <br />
+  <br />
+  <section id="SQL">
+    <h1>Commande SQL</h1>
+    <hr />
     <br />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="Switch">
+    <h1>Commande Switch</h1>
+    <hr />
     <br />
-    <section id="Switch">
-      <h1>Commande Switch</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="C#">
+    <h1>ligne de code C#</h1>
+    <hr />
     <br />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="Javascript">
+    <h1>ligne de code Javascript</h1>
+    <hr />
     <br />
-    <section id="C#">
-      <h1>ligne de code C#</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="PHP">
+    <h1>ligne de code PHP</h1>
+    <hr />
     <br />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="CSS">
+    <h1>ligne de code CSS</h1>
+    <hr />
     <br />
-    <section id="Javascript">
-      <h1>ligne de code Javascript</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br />
+  <br />
+  <section id="HTML">
+    <h1>ligne de code HTML</h1>
+    <hr />
     <br />
-    <br />
-    <section id="PHP">
-      <h1>ligne de code PHP</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
-    <br />
-    <br />
-    <section id="CSS">
-      <h1>ligne de code CSS</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
-    <br />
-    <br />
-    <section id="HTML">
-      <h1>ligne de code HTML</h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
-        distinctio cum aspernatur corrupti veritatis minima amet id numquam
-        magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
-        iusto.
-      </p>
-    </section>
-    <br /><br />
-  </body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo facilis
+      distinctio cum aspernatur corrupti veritatis minima amet id numquam
+      magnam? Facilis omnis, quidem eum est laudantium harum odio corrupti
+      iusto.
+    </p>
+  </section>
+  <br /><br />
+</body>
+
 </html>
