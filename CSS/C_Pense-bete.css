@@ -1,18 +1,39 @@
-/* css qui s'applique au commande Linux */
+/* css qui s'applique au commande Linux ////////////////////////////////////*/
 #Linux {
-    padding: 0px 50px 0px;
-    width: 600px;
-    font-size: 1.2rem;
+  padding: 0px 50px 0px;
+  width: 600px;
+  font-size: 1.2rem;
 }
 
 #Linux a {
-    background-color: rgb(0, 89, 255);
-    color: white;
-    padding: 8px;
-    border-radius: 20px;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
 }
 
 #Linux a:hover {
-    background-color: rgb(116, 20, 20);
-    color: rgb(255, 255, 255);
+  background-color: rgb(116, 20, 20);
+  color: rgb(255, 255, 255);
+}
+/* css qui s'applique au commande SQL //////////////////////////////////// */
+#SQL {
+  padding: 0px 50px 0px;
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+#SQL div {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+span {
+  color: rgb(3, 161, 209);
+}
+
+#span2 {
+  color: rgb(165, 87, 42);
 }
