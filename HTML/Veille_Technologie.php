@@ -1,3 +1,29 @@
+
+<!--php qui s'applique au vieille technologique -->
+<?php
+
+
+// $xml = simplexml_load_file('https://javascript.developpez.com/index/rss');
+$xml = simplexml_load_file('https://www.journalduhacker.net/rss');
+$xml = simplexml_load_file('https://news.humancoders.com/t/java/items/feed');
+
+foreach ($xml -> channel -> item as $item) {
+
+    print("<a href='{$item->link}'>'{$item->title}</a><br/>");
+    print("{$item->pubDate}");
+    print("{$item->description}");
+    print("{$items->$date}");
+    print("{$items->$enclosure}");
+
+    // $enclosureUrl = $item->enclosure[''];
+    // print('<br/><br/>enclosureUrl = "'. $enclosureUrl .'"<br/><br/>');
+
+
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,6 +68,7 @@
   <section id="Sujet1">
     <h1>Sujet 1</h1>
     <p>Veille_Technologique</p>
+    
   </section>
   <br>
   <br>
