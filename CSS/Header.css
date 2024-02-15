@@ -14,10 +14,10 @@ a {
 header {
   background-color: black;
   color: aliceblue;
-  height: 110px;
+  height: 90px;
 
   background: #000000;
-  background: linear-gradient(#000000 55%, #E7E5E4 100%, #E7E5E4 100%);
+  /*background: linear-gradient(#000000 55%, #E7E5E4 100%, #E7E5E4 100%);*/
 }
 
 nav {
@@ -25,7 +25,7 @@ nav {
   display: flex;
   align-items: center;
   width: 98%;
-  padding: 0px 0px 0px;
+  padding: 9px 0px 0px;
 }
 
 nav ul {
