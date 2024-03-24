@@ -14,19 +14,6 @@ a {
   padding: 8px;
   border-radius: 20px;
 }
-
-#projets{
- display: flex;
-}
-#p-1{
-  position: relative;
-  width: 150px;
-  height: 150px;
-  background-color: cadetblue;
-  border-radius: 10%;
-}
-
-
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 css qui s'applique au Photo =====================================================================================*/
 #PP {
